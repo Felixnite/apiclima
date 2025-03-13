@@ -80,7 +80,7 @@ function mostrarHTML(data){
 
     const tempA = document.createElement('p')
     tempA.innerHTML = `${TA} &#176C`
-    tempA.classList.add('text-white', 'text-center', 'text-3xl')
+    tempA.classList.add('text-white', 'text-center', 'text-6xl', 'font-bold')
 
     const min = document.createElement('p')
     min.innerHTML = `Temp min: ${TMm} &#176C`
